@@ -2,7 +2,7 @@
 <suite name="example suite 1" verbose="1" >
     <test name="Regression suite 1" >
         <classes>
-            <class name="testCases.SampleTest"/>
+            <class name="testcases.SampleTest"/>
         </classes>
     </test>
 </suite>

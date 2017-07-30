@@ -12,7 +12,8 @@ public class SampleTest {
 
     @Test
     public void test12() throws Exception{
-        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
 
     }

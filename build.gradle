@@ -20,5 +20,14 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version:seleniumVersion
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:seleniumVersion
     compile group: 'org.testng', name: 'testng', version: testngVersion
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
+
 }
+
+test {
+    useTestNG(){
+         'src/test/resources/testng.xml'
+    }
+}
+
 
